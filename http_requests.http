@@ -1,0 +1,14 @@
+
+GET http://127.0.0.1:3003/api/blogs
+
+####
+
+POST http://127.0.0.1:3003/api/blogs
+Content-Type: application/json
+
+{
+  "titel":"Title1",
+  "author": "Gimpels",
+  "url": "http://mysite.com",
+  "likes": 10
+}
